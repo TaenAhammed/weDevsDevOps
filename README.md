@@ -75,5 +75,4 @@ flux bootstrap github \
 ✔ notification-controller: deployment ready
 ✔ source-controller: deployment ready
 ✔ all components are healthy
-
 ```
