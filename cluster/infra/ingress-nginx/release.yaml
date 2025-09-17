@@ -19,11 +19,9 @@ spec:
         name: ingress-nginx
         namespace: flux-system
   install:
-    crds: Create
     remediation:
       retries: 3
   upgrade:
-    crds: CreateReplace
     remediation:
       retries: 3
   values:
