@@ -21,9 +21,11 @@ spec:
   install:
     remediation:
       retries: 3
+    timeout: 10m0s
   upgrade:
     remediation:
       retries: 3
+    timeout: 10m0s
   values:
     controller:
       service:
